@@ -88,7 +88,7 @@ def uct_search(start, goal, iterations=1000):
         node = node.best_child(0) if node.children else None
 
     return path
-
+# No support, just shortest path plannin
 # Run MCTS for each agent
 start_node_agent1 = 'A'
 goal_node_agent1 = 'F'
